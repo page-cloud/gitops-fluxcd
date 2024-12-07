@@ -19,7 +19,7 @@ spec:
         app: nginx-deploy
     spec:
       containers:
-      - image: mdrajibkhan/myimage:0.0.3
+      - image: mdrajibkhan/myimage:0.0.3 # {"$imagepolicy": "flux-system:nginx-image-policy"}
         name: nginx
         resources: {}
 status: {}
