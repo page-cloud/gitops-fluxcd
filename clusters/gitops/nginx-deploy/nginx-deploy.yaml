@@ -5,6 +5,7 @@ metadata:
   labels:
     app: nginx-deploy
   name: nginx-deploy
+  namespace: fluxcd
 spec:
   replicas: 3
   selector:
