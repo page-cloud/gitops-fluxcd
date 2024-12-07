@@ -19,7 +19,7 @@ spec:
         app: nginx-deploy
     spec:
       containers:
-      - image: nginx:alpine
+      - image: mdrajibkhan/myimage:0.0.1
         name: nginx
         resources: {}
 status: {}
