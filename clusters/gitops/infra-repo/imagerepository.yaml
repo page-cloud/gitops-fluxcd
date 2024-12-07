@@ -1,0 +1,10 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta2
+kind: ImageRepository
+metadata:
+  name: nginx-app-v1
+  namespace: flux-system
+spec:
+  image: docker.io/mdrajibkhan/myimage
+  interval: 1m0s
+  secretRef:
+    name: regcred 
